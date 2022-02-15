@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/* Change Made */
+
 typedef int ItemType;
 typedef enum{FAILURE, SUCCESS} StatusCode;
 typedef enum{False, True} Boolean;
