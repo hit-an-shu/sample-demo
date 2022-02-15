@@ -9,7 +9,7 @@ typedef enum{False, True} Boolean;
 typedef struct NodeTag
 {
     ItemType data;
-    struct NodeTag* next;    
+    struct NodeTag* next;
 }Node;
 typedef struct QueueTag
 {
@@ -97,6 +97,6 @@ int main()
     sc = InsertQueue(20, &myQueue);
     sc = InsertQueue(30, &myQueue);
     sc = DeleteQueue(&element, &myQueue); printf("\n %d \n", element);
-    
+
     return 0;
 }
