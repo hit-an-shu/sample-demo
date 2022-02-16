@@ -1,8 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-/* CHANGES MADE */
-/* ALL FUNCTIONS ARE IN THIS FILE */
+
 
 struct Node
 {
