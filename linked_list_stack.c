@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-/* Comment */
+
 
 typedef int ItemType;
 typedef enum{FAILURE, SUCCESS} StatusCode;
